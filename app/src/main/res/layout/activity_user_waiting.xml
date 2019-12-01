@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userWaiting">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:gravity="top"
+        android:layout_marginBottom="5dp"
+        tools:ignore="MissingConstraints">
+
+
+    <TextView
+        android:id="@+id/waiting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_textview"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:text="9"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/waiting_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Waiting"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edit_text_middle"
+
+            >
+
+            <TextView
+                android:id="@+id/yourNumberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Your number"
+                android:textSize="30dp"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_below="@+id/yourNumberText"
+                android:id="@+id/yourNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textSize="50dp"
+                android:layout_centerInParent="true"
+
+                android:padding="10dp"/>
+
+
+        </RelativeLayout>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10dp"
+        android:text="Cancel"
+        android:onClick="Cancel"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="10dp"/>
+
+
+
+    <View
+        android:id="@+id/last_border"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1B1A1A"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

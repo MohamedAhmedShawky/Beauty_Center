@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Beauty_Center</string>
+    <string name="registrationSuccess">Registration success</string>
+    <string name="failed">Failed</string>
+    <string name="google_map_API_key">AIzaSyC5Lz-vizOgFzBx6WpxSxXCOENepbQXcp0</string>
+
+
+</resources>

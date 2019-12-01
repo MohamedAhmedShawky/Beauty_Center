@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+    <item
+        android:id="@+id/one"
+        android:title="Sort by"
+        />
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/two"
+            android:title="nearest"
+            android:checkable="true" />
+
+        <item
+            android:id="@+id/three"
+            android:title="less time"
+            android:checkable="true">
+
+
+        </item>
+
+    </group>
+
+
+    <item
+        android:id="@+id/four"
+        android:title="filter by"/>
+
+    <item
+        android:id="@+id/five"
+        android:title="services">
+
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/first_service"
+                    android:title="Hair"
+                    android:checkable="true"
+                    app:actionViewClass="android.widget.CheckBox"/>
+                <item
+                    android:id="@+id/second_service"
+                    android:title="Nail"
+                    android:checkable="true"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/six"
+        android:title="offer"
+        android:checkable="true"/>
+
+    </group>
+</menu>
